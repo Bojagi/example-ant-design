@@ -3,11 +3,7 @@ import Badge from './Badge';
 import { Icon } from 'antd';
 import styled from 'styled-components';
 
-export default {
-  title: 'Badge',
-};
-
-const HeadExample = styled.div`
+export const HeadExample = styled.div`
   width: 42px;
   height: 42px;
   border-radius: 4px;
@@ -15,6 +11,10 @@ const HeadExample = styled.div`
   display: inline-block;
   vertical-align: middle;
 `;
+
+export default {
+  title: 'Badge',
+};
 
 export const Basic = () =>
   <Badge count={5}>

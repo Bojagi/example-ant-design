@@ -859,13 +859,13 @@
     lodash "^4.17.13"
     to-fast-properties "^2.0.0"
 
-"@bojagi/cli@0.6.0":
-  version "0.6.0"
-  resolved "https://registry.yarnpkg.com/@bojagi/cli/-/cli-0.6.0.tgz#ddc773d0c2a2ea862b3baca07d0a9c411f6f0520"
-  integrity sha512-OxJHdv3lE2eTqW/LKANZ9soFVFw0SZAx8ovYZVB5xabFfQ+YCyNuc/DRklaB184QtEzRM/ru/pF34JXpJnX+lQ==
+"@bojagi/cli@^0.6.1":
+  version "0.6.1"
+  resolved "https://registry.yarnpkg.com/@bojagi/cli/-/cli-0.6.1.tgz#7e5d88dc0a80ab2f49543cbb81f1931ac9d52c9b"
+  integrity sha512-FA9eKK38qDmIiV/aA4SBaa2zH7V8+0oPakuNxyxvMkYJixGgLuUuuAV78E10zWUUw8vqqIq1siprJ7zro+9gNA==
   dependencies:
     "@bojagi/collector-base" "^0.6.0"
-    "@bojagi/collector-main" "^0.6.0"
+    "@bojagi/collector-main" "^0.6.1"
     "@bojagi/types" "^0.6.0"
     adm-zip "^0.4.13"
     chalk "2.4.2"
@@ -889,10 +889,10 @@
   resolved "https://registry.yarnpkg.com/@bojagi/collector-base/-/collector-base-0.6.0.tgz#10f9110d181dcfdb09842a0d24fc7adaa5134771"
   integrity sha512-Z3t5uwfUrq/djXhGcu8+pc3Gvkav8vtew6PDwlM5BnuP6Q0iXF50i4JZgkM1Aav34OhIrtc+UosY+RPmEph70Q==
 
-"@bojagi/collector-main@^0.6.0":
-  version "0.6.0"
-  resolved "https://registry.yarnpkg.com/@bojagi/collector-main/-/collector-main-0.6.0.tgz#ea41f6766dc83e5565e1a0fc4ddaf24fd69e8fdb"
-  integrity sha512-2wPTtOPoqBc/Y4pUglsoCOFA40+K+W5532OkVwdisJ4IbMkb056NFwxn3W489ssekqWNyMnSEe1NevNkbAqCQQ==
+"@bojagi/collector-main@^0.6.1":
+  version "0.6.1"
+  resolved "https://registry.yarnpkg.com/@bojagi/collector-main/-/collector-main-0.6.1.tgz#e0b664d64ecd4cf89f4450b002ccc5e8259f7b1a"
+  integrity sha512-GrrgsfIvRSMGalWUI+JqiaE9pU03eEsJExjPIt12twZtqMX4r1rL8PAWpMJ2LDj/v88NboIBVy2pfGixwH35TQ==
   dependencies:
     "@bojagi/collector-base" "^0.6.0"
     glob "^7.1.6"

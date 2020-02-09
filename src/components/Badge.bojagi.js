@@ -13,7 +13,7 @@ const HeadExample = styled.div`
 `;
 
 export default {
-  title: 'Badge',
+  title: 'Badgee',
 };
 
 export const Basic = () =>

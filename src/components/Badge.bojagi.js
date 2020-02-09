@@ -3,7 +3,7 @@ import Badge from './Badge';
 import { Icon } from 'antd';
 import styled from 'styled-components';
 
-export const HeadExample = styled.div`
+const HeadExample = styled.div`
   width: 42px;
   height: 42px;
   border-radius: 4px;

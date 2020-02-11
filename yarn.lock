@@ -859,14 +859,14 @@
     lodash "^4.17.13"
     to-fast-properties "^2.0.0"
 
-"@bojagi/cli@^0.6.1":
-  version "0.6.1"
-  resolved "https://registry.yarnpkg.com/@bojagi/cli/-/cli-0.6.1.tgz#7e5d88dc0a80ab2f49543cbb81f1931ac9d52c9b"
-  integrity sha512-FA9eKK38qDmIiV/aA4SBaa2zH7V8+0oPakuNxyxvMkYJixGgLuUuuAV78E10zWUUw8vqqIq1siprJ7zro+9gNA==
+"@bojagi/cli@^0.6.2":
+  version "0.6.2"
+  resolved "https://registry.yarnpkg.com/@bojagi/cli/-/cli-0.6.2.tgz#1fb680c13446e2d047df0e31eea5881b3061dd74"
+  integrity sha512-q8Fu8GINinx1NZasvNp1WK/ff+VVyl2sqwFVqKBFrPYM7ZXu/pWnb0tAhGbAY2Mnqm0tm6xixgvSWqd11D3uBw==
   dependencies:
-    "@bojagi/collector-base" "^0.6.0"
-    "@bojagi/collector-main" "^0.6.1"
-    "@bojagi/types" "^0.6.0"
+    "@bojagi/collector-base" "^0.6.2"
+    "@bojagi/collector-main" "^0.6.2"
+    "@bojagi/types" "^0.6.2"
     adm-zip "^0.4.13"
     chalk "2.4.2"
     cli-spinner "0.2.10"
@@ -884,25 +884,27 @@
     util.promisify "1.0.1"
     webpack "4.41.5"
 
-"@bojagi/collector-base@^0.6.0":
-  version "0.6.0"
-  resolved "https://registry.yarnpkg.com/@bojagi/collector-base/-/collector-base-0.6.0.tgz#10f9110d181dcfdb09842a0d24fc7adaa5134771"
-  integrity sha512-Z3t5uwfUrq/djXhGcu8+pc3Gvkav8vtew6PDwlM5BnuP6Q0iXF50i4JZgkM1Aav34OhIrtc+UosY+RPmEph70Q==
+"@bojagi/collector-base@^0.6.2":
+  version "0.6.2"
+  resolved "https://registry.yarnpkg.com/@bojagi/collector-base/-/collector-base-0.6.2.tgz#89c4b708fe3600af955c33ecedf8ab2dc6a633bb"
+  integrity sha512-Rm9gat6I0wCXO2KFkH4CXVLJIfJy3P0I0h0sebjzwZ79EUnrV/2lM67TWVv8yCzzxSusAZwd3aRC2KnTXAuXzg==
 
-"@bojagi/collector-main@^0.6.1":
-  version "0.6.1"
-  resolved "https://registry.yarnpkg.com/@bojagi/collector-main/-/collector-main-0.6.1.tgz#e0b664d64ecd4cf89f4450b002ccc5e8259f7b1a"
-  integrity sha512-GrrgsfIvRSMGalWUI+JqiaE9pU03eEsJExjPIt12twZtqMX4r1rL8PAWpMJ2LDj/v88NboIBVy2pfGixwH35TQ==
+"@bojagi/collector-main@^0.6.2":
+  version "0.6.2"
+  resolved "https://registry.yarnpkg.com/@bojagi/collector-main/-/collector-main-0.6.2.tgz#649d8fe799987ea4785db0ee068458218cb75b9a"
+  integrity sha512-N9Bxv+6N8oqBEh1yC1J2VRhSfZRgZVlxw5roQD67PIpqbNV6jChuLVI9RQFFjta9mqk1AOm0tGWw3b1EllqdCg==
   dependencies:
-    "@bojagi/collector-base" "^0.6.0"
+    "@bojagi/collector-base" "^0.6.2"
     glob "^7.1.6"
     jsdom "^15.2.1"
+    react "16.12.0"
+    react-dom "16.12.0"
     react-test-renderer "^16.12.0"
 
-"@bojagi/types@^0.6.0":
-  version "0.6.0"
-  resolved "https://registry.yarnpkg.com/@bojagi/types/-/types-0.6.0.tgz#8da8d2830d7c6b3fb79573e0a5cc03acacbbed2d"
-  integrity sha512-DwY0qMt8DRz9X6xzoNUjJLkWfjI2EzJyR3HHEiLCFz9VACIBejHCPolpo/SXDhYNZM8wUxZwetA+D9FT6ysahg==
+"@bojagi/types@^0.6.2":
+  version "0.6.2"
+  resolved "https://registry.yarnpkg.com/@bojagi/types/-/types-0.6.2.tgz#c2dd5b520612539ced1999fc5e0ad2de25a8aa0e"
+  integrity sha512-4d7LSjHs55G+ntY7ObCjyo7zK8kd4exigyAN+Sou9Pq8AzX9aB9NMDOvmIA/OahopH4b6oqDzEtc8BWqSQklIg==
 
 "@emotion/cache@^10.0.27":
   version "10.0.27"

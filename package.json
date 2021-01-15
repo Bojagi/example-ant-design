@@ -10,15 +10,15 @@
   },
   "dependencies": {
     "antd": "^3.26.9",
-    "react": "16.12.0",
-    "react-dom": "16.12.0",
+    "react": "~16.13.0",
+    "react-dom": "~16.13.0",
     "styled-components": "^5.0.1"
   },
   "devDependencies": {
     "@babel/core": "7.8.4",
     "@babel/preset-env": "7.8.4",
     "@babel/preset-react": "^7.8.3",
-    "@bojagi/cli": "^0.11.1",
+    "@bojagi/cli": "^0.12.0",
     "@storybook/react": "^5.3.12",
     "babel-loader": "8.0.6",
     "html-loader": "0.5.5",

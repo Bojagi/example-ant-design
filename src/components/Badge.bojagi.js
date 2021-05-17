@@ -16,11 +16,6 @@ export default {
   title: 'Badge',
 };
 
-export const Basic = () =>
-  <Badge count={5}>
-    <HeadExample />
-  </Badge>
-
 export const Zero = () =>
   <Badge count={0} showZero>
     <HeadExample />
